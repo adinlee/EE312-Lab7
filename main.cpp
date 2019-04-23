@@ -49,6 +49,7 @@ int main() {
     cout << "number of nodes is: " << bst.countNodes() << endl;
     s = "to";
     bst.isItemInTree(s);
+    bst.insertItem(s);
     cout << "postorder traversal is " << endl;
     print(bst.postOrderTraversal());
     cout << endl;
